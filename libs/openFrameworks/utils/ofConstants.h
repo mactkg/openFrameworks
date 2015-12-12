@@ -154,6 +154,8 @@ enum ofTargetPlatform{
 	#include <OpenGL/gl.h>
 	#include <ApplicationServices/ApplicationServices.h>
 
+    #undef check
+
 	#if defined(__LITTLE_ENDIAN__)
 		#define TARGET_LITTLE_ENDIAN		// intel cpu
 	#endif
